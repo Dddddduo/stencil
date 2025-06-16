@@ -215,11 +215,12 @@ upload:
     url: https://ican2023.oss-cn-hangzhou.aliyuncs.com/
     endpoint: oss-cn-hangzhou.aliyuncs.com
     bucketName: ican2023
-    accessKeyId: LTAI5t8Dyz7FADG5S6Vcb92E
-    accesskeySecret: Jsb53tjXz7o4sezQvpmUrdVZAMMjYp
+    # 阿里云访问密钥（AccessKey ID 和 AccessKey Secret）
+    accessKeyId:
+    accesskeySecret:
   # cos存储
   cos:
-    url: https://ican-1312757424.cos.ap-shanghai.myqcloud.com/
+    url:
     secretId: AKIDe7MM7fx0oNhlaAUZPzJODm6B1bw2sTou
     secretKey: uYxhCRRBfutc5JH0ThfOs76qKYXGjxvd
     region: ap-shanghai
